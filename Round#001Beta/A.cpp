@@ -10,5 +10,6 @@ int main() {
     if(y % a == 0) y /= a;
     else y = y/a + 1;
     cout << x*y << endl;
+
     return 0;
 }
