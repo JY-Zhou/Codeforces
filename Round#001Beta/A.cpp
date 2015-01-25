@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int x,y,a;
+    long long x,y,a;
     cin >> x >> y >> a;
     if(x % a == 0) x /= a;
     else x = x/a + 1;
